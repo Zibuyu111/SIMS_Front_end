@@ -1,0 +1,42 @@
+<svg width="600" height="600" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+    <!-- 核心结构 -->
+    <g transform="translate(64 64)">
+        <!-- 动态数据流 -->
+        <path d="M -36 0
+                 Q -24 12 0 12
+                 T 36 0
+                 Q 24 -12 0 -12
+                 T -36 0"
+              fill="none"
+              stroke="url(#gradient)"
+              stroke-width="4"
+              stroke-linecap="round"/>
+
+        <!-- 智慧中枢 -->
+        <circle cx="0" cy="0" r="18"
+                fill="url(#coreGradient)"
+                stroke="#FF7F24"
+                stroke-width="2"/>
+
+        <!-- 连接节点 -->
+        <g class="nodes">
+            <circle cx="-24" cy="0" r="3" fill="#00C0FF"/>
+            <circle cx="24" cy="0" r="3" fill="#FF6B00"/>
+            <circle cx="0" cy="-24" r="3" fill="#00C0FF"/>
+            <circle cx="0" cy="24" r="3" fill="#FF6B00"/>
+        </g>
+    </g>
+
+    <!-- 渐变定义 -->
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#00C0FF"/>
+            <stop offset="100%" stop-color="#FF6B00"/>
+        </linearGradient>
+
+        <radialGradient id="coreGradient">
+            <stop offset="0%" stop-color="#FFFFFF"/>
+            <stop offset="100%" stop-color="#F0F0F0"/>
+        </radialGradient>
+    </defs>
+</svg>

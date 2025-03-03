@@ -1,0 +1,58 @@
+.student-container {
+    padding: 20px;
+}
+
+.search-card {
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+}
+
+.table-card {
+    margin-top: 20px;
+}
+
+/* 添加搜索按钮样式 */
+.el-button {
+    width: 100%;
+}
+
+.operation-buttons {
+    display: flex;
+    gap: 8px;  /* 按钮之间的间距 */
+}
+
+/* 让表格操作按钮更紧凑 */
+:deep(.el-button--small) {
+    padding: 6px 12px;
+}
+
+/* 让图标和文字之间有一定间距 */
+.el-icon {
+    margin-right: 4px;
+}
+
+.edit-form {
+    padding: 0 20px;
+}
+
+.dialog-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* 可以添加一些新的样式 */
+.el-dialog__body {
+    padding: 20px 0;
+}
+
+/* 调整按钮间距 */
+.operation-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

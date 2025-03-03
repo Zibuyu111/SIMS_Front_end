@@ -1,0 +1,173 @@
+.operation-buttons {
+    display: flex;
+    gap: 8px;  /* 按钮之间的间距 */
+    justify-content: center;
+    align-items: center;
+}
+
+/* 让表格操作按钮更紧凑 */
+.el-button--small {
+    padding: 6px 12px;
+}
+
+/* 让图标和文字之间有一定间距 */
+.el-icon {
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+/* 统一按钮大小 */
+.operation-button {
+    min-width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 表格样式 */
+.table-card {
+    margin-top: 20px;
+}
+
+/* 搜索卡片样式 */
+.search-card {
+    margin-bottom: 20px;
+}
+
+/* 搜索输入框样式 */
+.search-input {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Table header styles */
+.el-table th {
+    background-color: #f5f7fa !important;
+    color: #606266;
+    font-weight: bold;
+}
+
+/* Hover effect for table rows */
+.el-table tr:hover > td {
+    background-color: #f0f9ff !important;
+}
+
+/* Status tag styles */
+.el-tag {
+    font-weight: 500;
+}
+
+/* Button spacing in tables */
+.el-table .el-button + .el-button {
+    margin-left: 5px;
+}
+
+/* Pagination styles */
+.pagination-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Card styles */
+.el-card {
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05) !important;
+    border-radius: 4px;
+    border: 1px solid #ebeef5;
+}
+
+.el-card__header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ebeef5;
+    background-color: #fafafa;
+}
+
+/* Empty state styles */
+.el-empty {
+    padding: 20px 0;
+}
+
+/* Form styles */
+.form-container {
+    padding: 20px;
+}
+
+.form-footer {
+    margin-top: 20px;
+    text-align: right;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .el-table .cell {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .operation-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .operation-buttons .el-button {
+        margin-left: 0 !important;
+        margin-top: 5px;
+    }
+}
+
+/* Announcement Styles */
+.announcement-list-container {
+  padding: 20px;
+}
+
+.announcement-detail-container {
+  padding: 20px;
+}
+
+.announcement-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.announcement-item {
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 1px solid #ebeef5;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.announcement-item:hover {
+  background-color: #f0f9ff;
+}
+
+.announcement-item:last-child {
+  border-bottom: none;
+}
+
+.announcement-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.announcement-meta {
+  font-size: 12px;
+  color: #909399;
+  display: flex;
+  justify-content: space-between;
+}
+
+.loading-container, .error-container {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.empty-container {
+  padding: 30px 0;
+  text-align: center;
+  color: #909399;
+} 

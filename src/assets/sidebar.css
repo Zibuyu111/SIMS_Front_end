@@ -1,0 +1,49 @@
+/* 侧边栏深色主题 */
+.aside {
+  background-color: #0c1a2a !important; /* 更深的背景色 */
+}
+
+.logo-container {
+  background-color: #0c1a2a !important;
+  border-bottom: 1px solid #162d40;
+}
+
+/* 菜单背景色 */
+.el-menu {
+  background-color: #0c1a2a !important;
+}
+
+/* 菜单项悬停效果 */
+.el-menu-item:hover {
+  background-color: #162d40 !important;
+}
+
+/* 激活菜单项 */
+.el-menu-item.is-active {
+  background-color: #1668dc !important; /* 稍微暗一点的蓝色 */
+}
+
+/* 折叠时的菜单 */
+.el-menu--collapse {
+  background-color: #0c1a2a !important;
+}
+
+/* 菜单项文字颜色 */
+.el-menu-item {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* 菜单项图标颜色 */
+.el-menu-item .el-icon {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* 菜单项悬停时文字颜色 */
+.el-menu-item:hover {
+  color: #fff !important;
+}
+
+/* 菜单项悬停时图标颜色 */
+.el-menu-item:hover .el-icon {
+  color: #fff !important;
+} 

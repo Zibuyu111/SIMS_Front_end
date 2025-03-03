@@ -1,0 +1,129 @@
+.layout-container {
+    height: 100vh;
+    width: 100%;
+}
+
+.aside {
+    background-color: #001529;
+    transition: width 0.3s;
+    overflow: hidden;
+    box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35);
+}
+
+.logo-container {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    background-color: #001529;
+    color: white;
+}
+
+.logo-container img {
+    height: 32px;
+}
+
+.toggle-button {
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.header {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+    height: 60px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.system-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #001529;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.notification {
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.user-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.main {
+    background-color: #f0f2f5;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.stat-card {
+    .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .stat-number {
+        font-size: 28px;
+        font-weight: bold;
+        color: #303133;
+        margin: 10px 0;
+    }
+
+    .stat-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #909399;
+    }
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.quick-actions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+:deep(.el-menu) {
+    border-right: none;
+}
+
+:deep(.el-menu-item.is-active) {
+    background-color: #1890ff !important;
+}
+
+:deep(.el-menu-item:hover) {
+    background-color: #263445 !important;
+}
+
+:deep(.el-timeline-item__node) {
+    background-color: #1890ff;
+}
+
+.el-menu-vertical:not(.el-menu--collapse) {
+    width: 200px;
+}
