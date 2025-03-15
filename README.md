@@ -1,33 +1,13 @@
-# homework1025
+# SIMS_Front_end
 
-This template should help get you started developing with Vue 3 in Vite.
+## **pre-View**
+`LoginPage`
+![image](https://github.com/user-attachments/assets/2caaa2e7-e11d-4171-883f-198c45e78732)
 
-## Recommended IDE Setup
+`HomePage`
+![image](https://github.com/user-attachments/assets/b9d7b851-f50e-42d2-895e-c2eb688e9c04)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+`...Other`
+![image](https://github.com/user-attachments/assets/64fc8eb4-7ab4-4fc6-8f03-1f462885ee92)
 
-## Type Support for `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
