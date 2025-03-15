@@ -13,3 +13,7 @@
   }
 }
 </style>
+
+<script setup>
+
+</script>
